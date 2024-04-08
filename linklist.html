@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="">Input data</label>
+            <input type="text"name="" id="data">
+        </div>
+        <div>
+            <label for="">Enter Index</label>
+            <input type="text" id="indexInput">
+        </div>
+        <div>
+            <label for="">Enter New Value</label>
+            <input type="text" id="newValueInput">
+        </div>
+        <div>
+            <span>
+                <button onclick="pushData()">Push Data</button>
+            </span>
+            <span>
+                <button onclick="displayData()">Display Data</button>
+            </span>
+            <span>
+                <button onclick="popData()">Pop Data</button>
+            </span>
+            <span>
+                <button onclick="unshiftData()">Unshift Data</button>
+            </span>
+            <span>
+                <button onclick="shiftData()">Shift Data</button>
+            </span>
+            <span>
+                <button onclick="getData()">Get Data</button>
+            </span>
+            <span>
+                <button onclick="setData()">Set Data</button>
+            </span>
+            <span>
+                <button onclick="insertData()">Insert Data</button>
+            </span>
+            <span>
+                <button onclick="removeData()">Remove Data</button>
+            </span>
+        </div>
+    </form>
+    <label for="" id="result"></label>
+    <br>
+    <label for="" id="aesd"></label>
+    <script src="linklist.js"></script>
+</body>
+</html>
